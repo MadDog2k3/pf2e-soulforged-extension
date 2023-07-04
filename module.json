@@ -1,0 +1,45 @@
+{
+    "id": "pf2e-soulforged-extension",
+    "title": "PF2e Soulforged Extension",
+    "description": "An extension to better support the Soulforger Archetype in the Pathfinder 2e system.",
+    "version": "0.0.1",
+    "compatability": {
+        "minimum": 10,
+        "verified": "10.291"
+    },
+    "authors": [
+        {
+            "name": "MadDog2k3",
+            "discord": "maddog2k3"
+        }
+    ],
+    "relationships": {
+        "systems": [
+            {
+                "id": "pf2e",
+                "type": "system",
+                "compatability": {
+                    "minimum": "4.12.9",
+                    "verrified": "4.12.9"
+                }
+            }
+        ]
+    },
+    "scripts": [
+        "scripts/test.js"
+      ],
+    "languages": [
+        {
+            "lang": "en",
+            "name": "English",
+            "path": "lang/en.json"
+        }
+    ],
+    "url": "https://github.com/MadDog2k3/pf2e-soulforged-extension",
+    "manifest": "https://github.com/MadDog2k3/pf2e-soulforged-extension/module.json",
+    "download": "",
+    "flags": {
+        "allowBugReporter": true
+    },
+    "bugs": "https://github.com/MadDog2k3/pf2e-soulforged-extension/issues"
+}
