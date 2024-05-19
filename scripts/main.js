@@ -15,6 +15,8 @@ Hooks.on('createItem', async (feat, options, userID) => {
     if (userID !== game.user.id) return; 
 
     if(feat.name == 'Soulforger Dedication') {
-        console.log("-- Hock for adding the Soulforger Dedication!");
+        console.log("-- Hook for adding the Soulforger Dedication!");
     }
+
+    //test
 });
